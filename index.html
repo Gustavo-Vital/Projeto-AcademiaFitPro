@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:ital@1&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/reset.css">
+
+    <link rel="stylesheet" href="styles/global.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/presentation.css">
+    <link rel="stylesheet" href="styles/features.css">
+    <link rel="stylesheet" href="styles/services.css">
+    <link rel="stylesheet" href="styles/gym-enviroment.css">
+    <link rel="stylesheet" href="styles/photos.css">
+    <link rel="stylesheet" href="styles/footer.css">
+
+
+    <title>Fitness Pro</title>
+
+</head>
+
+<body>
+    <header class="header container">
+        <img class="header__logo" src="assets/logo.svg" alt="Logotipo fitness pro">
+
+        <nav>
+            <ul class="header__nav">
+                <li><a class="header__nav-item" href="#presentation">Inicio</a></li>
+                <li><a class="header__nav-item" href="#features">Nós</a></li>
+                <li><a class="header__nav-item" href="#services">Serviços</a></li>
+                <li><a class="header__nav-item" href="#gym-environment">Ambiente</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <section class="presentation container" id="presentation">
+        <div class="presentation__description-container">
+            <h1 class="presentation__description-title">
+                Construa a saúde e o corpo que voce merece.
+            </h1>
+
+            <p class="presentation__description-content text text--white ">
+                Treine numa academia com uma equipe de treinadores de alto nivel e aparelhos incriveis.
+            </p>
+
+            <a class="presentation__contact-button" href="https://wa.me/5511999224284?text=Ol%C3%A1,%20quero%20me%20matricular!">
+                Entrar em contato
+            </a>
+
+        </div>
+
+        <img class="presentation__image" 
+        src="assets/image-1.jpg" 
+        alt="Homem executando um exercicio fisico.">
+
+    </section>
+
+    <section class="features container" id="features">
+        <h1 class="features__title title">
+            O que você vai ganhar <br class="lg-only"> treinando com a gente?
+        </h1>
+        <div class="features__container">
+
+            <div class="features__item">
+                <img class="features__item-image" src="assets/dollar-icon.svg" alt="Icone de dolar">
+
+                <h2 class="features__item-title">Apenas a mensalidade</h2>
+                <p class="features__item-content text--dark">
+                    Não te cobramos taxa de manutenção, nem de cancelamento. Aqui
+                    prezamos pelo justo e descomplicado.
+                </p>
+            </div>
+
+            <div class="features__item">
+
+                <img class="features__item-image" src="assets/localization-icon.svg" alt="Icone de Localização">
+                <h2 class="features__item-title">
+                    Facil Localização
+                </h2>
+                <p class="features__item-content text">
+                    Estamos na Rua dos Tangaras, 555, com estacionamento próprio.
+                </p>
+
+            </div>
+
+            <div class="features__item">
+                <img class="features__item-image" src="assets/medal-icon.svg" alt="Icone de Medalha">
+                <h2 class="features__item-title">
+                    Alto nivel
+                </h2>
+                <p class="features__item-content text">
+                    Nossos equipamentos são modernos, estratégicos e simples, tudo para
+                    seu resultado.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="services container" id="services">
+        <img
+          class="services__image"
+          src="assets/image-2.jpg"
+          alt="Foto de uma personal ajudando um homem"
+        />
+  
+        <div class="services__description-container">
+          <span class="tag">Serviços</span>
+          <h1 class="services__title title">Tudo o que você quer<br class="lg-only"> no mesmo lugar</h1>
+          <p class="services__content text text--dark">
+            Na Fitness Pro você terá tudo o que precisa para conquistar resultados
+            incríveis. Só depende de você!
+          </p>
+  
+          <div class="services__item">
+            <img src="assets/check-icon.svg" alt="Ícone de check" />
+  
+            <div class="services__info">
+              <h2 class="services__item-title">Treinadores profissionais</h2>
+              <p class="services__item-content text text--dark">
+                Treine com os melhores profissionais da musculação com exercícios
+                de simples execução.
+              </p>
+            </div>
+          </div>
+  
+          <div class="services__item">
+            <img src="assets/check-icon.svg" alt="Ícone de check" />
+            <div class="services__info">
+              <h2 class="services__item-title">Você no controle do seu tempo</h2>
+              <p class="services__item-content text text--dark">
+                Obtenha treinos de acordo com seu momento, respeitamos os seus
+                dias e horários disponíveis.
+              </p>
+            </div>
+          </div>
+  
+          <div class="services__item">
+            <img src="assets/check-icon.svg" alt="Ícone de check" />
+            <div class="services__info">
+              <h2 class="services__item-title">Avaliação física</h2>
+              <p class="services__item-content text text--dark">
+                Veja seus resultados na ponta do lápis, com nossa avaliação física
+                completa.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    <section class="gym-environment container" id="gym-environment">
+        <div class="gym-environment__description-container">
+            <span class="tag">Academia Fitness Pro</span>
+            <h1 class="gym-environment__title title">O ambiente que faz <br class="lg-only">a diferença nos seus resultados</h1>
+            <p class="gym-environment__content text text--dark">
+                Nós sabemos que um ambiente incrivel leva a <br class="lg-only">resultados incríveis, por este motivo pensamos<br class="lg-only">
+            </p>
+        </div>
+
+        <img class="gym-environment__image" src="assets/image-3.jpg" alt="Foto da academia Fitness Pro">
+
+
+    </section>
+
+    <section class="photos container">
+        <h1 class="title">
+            Aparelhos modernos<br class="lg-only"> para os melhores resultados.
+        </h1>
+
+        <div class="photos__photos-container">
+            <img src="assets/image-4.jpg" alt="Foto de halteres" class="photos__image">
+            <img src="assets/image-7.jpg" alt="Foto de um aparelho da academia" class="photos__image">
+            <img src="assets/image-5.jpg" alt="Foto do homem fazendo agachamento" class="photos__image">
+            <img src="assets/image-8.jpg" alt="Homem fazendo exercicio" class="photos__image">
+            <img src="assets/image-6.jpg" alt="Foto de uma bicicleta ergométrica" class="photos__image">
+            <img src="assets/image-9.jpg" alt="Mulher executando um exercicio" class="photos__image">
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer__container container">
+
+            <div class="footer__brand-container">
+                <img src="assets/logo.svg" alt="Logotipo da Fitness Pro">
+
+                <p class="Footer__band-text text text--white">
+                    Treine de uma forma personalizada<br class="lg-only">
+                    para você e alcance resultados!
+                </p>
+
+                <ul class="brand__social-media">
+                    <li class="brand__social-media-item">
+                        <a href="#">
+                            <img src="assets/facebook-brand-icon.svg" alt="icone do facebook">
+                        </a>
+                    </li>
+
+                    <li class="brand__social-media-item">
+                        <a href="#">
+                            <img src="assets/instagram-brand-icon.svg" alt="Icone do instagram">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+        <div class="footer__contact-container">
+            <h2 class="footer__contact-title">Fale Conosco</h2>
+
+            <address class="footer__address text text--white">
+                Rua dos Tangaras, 555 <br>
+                São Bernardo do Campo - SP <br>
+                CEP: 09861-040 <br>
+                (11) 99922-4284 <br>
+                gustavo.soatto@gmail.com
+            </address>
+        </div>
+
+        <iframe class="footer__map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3653.032694410824!2d-46.5830965844728!3d-23.710526473004112!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce43ef7d6a46cb%3A0xcb7c35aa6a948d32!2sR.%20dos%20Tangar%C3%A1s%2C%20555%20-%20Parque%20dos%20Passaros%2C%20S%C3%A3o%20Bernardo%20do%20Campo%20-%20SP%2C%2009861-040!5e0!3m2!1spt-BR!2sbr!4v1666116430347!5m2!1spt-BR!2sbr"
+            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+
+
+    </footer>
+</body>
+
+</html>
